@@ -1,0 +1,560 @@
+body {
+    background-color: #FE9D28;
+    color: black;
+    font-family: 'Righteous', 'cursive';
+    margin: 0px;
+}
+
+header {
+    /* position: sticky; */
+    top: 0px;
+
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+.menu-nav {
+    display: flex;
+    justify-content: center;
+    background-color: #FE9D28;
+    box-shadow: rgb(0 0 0 / 20%) 0px 3px 5px -1px, rgb(0 0 0 / 14%) 0px 6px 10px 0px, rgb(0 0 0 / 12%) 0px 1px 18px 0px
+}
+
+.logoimagenn {
+    width: 20px;
+}
+
+.contenedorlogoprade{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.logopraade {
+    display: flex;
+    justify-content: center;
+    width: 600px;
+}
+
+#logoprade {
+    width: 170px;
+    justify-content: flex-start;
+    margin: 10px;
+    border-radius: 20px;
+    height: 62px;
+}
+/* .button{
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    background-color: palevioletred;
+    color: black;
+    margin-left: 40px;
+} */
+.paginas {
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.paginas li:hover{
+
+    background-color: red;
+    transform: rotate(20deg);
+}
+
+ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+    font-size: 30px;
+    font-weight: bold;
+    display: inline;
+    margin: 0px 10px;
+}
+
+.contenedorimagen {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.textoinicio {
+    /* display: flex;
+    align-items: flex-end;
+    display: flex;
+    justify-content: center; */
+    margin: 40px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.fotogrupal {
+    height: 400px;}
+
+.titulocontenido {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.subtitulocontenido {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+    
+}
+
+.videosyt {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-evenly;
+    
+}
+
+#videosyt2 {
+    margin-bottom: 40px;
+}
+
+.video {
+    box-shadow: rgb(0 0 0 / 20%) 0px 5px 5px -3px, rgb(0 0 0 / 14%) 0px 8px 10px 1px, rgb(0 0 0 / 12%) 0px 3px 14px 2px;
+}
+
+.contacto-sape {
+    background-image: url(../proyectopradera/logospradera/logopraderasinfondo2.png);
+    background-size: 225px;
+    background-repeat: space;
+
+}
+
+footer {
+    color: white;
+    font-size: 1500px;
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.redes {
+    color: white;
+}
+
+/* PLANTILLA INTEGRANTES */
+
+.nombrezuko {
+    margin-right: 40px;
+    margin-top: 40px;
+}
+
+.nombrezuko:hover{
+    transform: translate(5px, 5px);
+    background-color: blue;
+}
+
+
+.zukito {
+    display: flex;
+}
+
+.textozuko {
+    margin: 40px;
+    font-size: 19px;
+    letter-spacing: 2px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.textozuko2 {
+    margin: 40px;
+    font-size: 19px;
+    letter-spacing: 2px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.textozuko3 {
+    margin: 40px;
+    margin-top: 40px;
+    font-size: 19px;
+    letter-spacing: 2px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.fotozuko {
+    width: 520px;
+    height: 650px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.redeszuko {
+    display: flex;
+    flex-direction: column;
+    list-style: circle;
+    margin-top: 40px;
+}
+
+.redeszukoo {
+    display: flex;
+    flex-direction: column;
+    /* list-style: circle; */
+    margin-top: 40px;
+    /* text-decoration: dashed; */
+}
+
+.redeszukooo {
+    display: flex;
+    flex-direction: column;
+    /* list-style: circle; */
+    margin-top: 40px;
+    margin-bottom: 50px;
+    /* text-decoration: dashed; */
+}
+
+
+.logoredes {
+    width: 75px;
+    height: 65px;
+    margin-left: 40px;
+}
+
+.fotozukoo {
+    width: 520px;
+    height: 650px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+/* biografia */
+
+.textohistoria {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+.titulohistoria {
+    margin-top: 40px;
+}
+
+.textocasas {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 25px;
+}
+
+.videoscasas {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: 480px;
+    flex-direction: row;
+    
+}
+
+/* PLANILLA PROYECTOS */
+
+.tituloproyecto {
+    margin-bottom: 50px;
+}
+
+.piedrapapelotijera {
+    display: flex;
+}
+
+.piedra {
+    height: 380px;
+    margin-left: 50px;
+    align-self: center;
+    margin-bottom: 50px;
+
+}
+
+.titulopiedra {
+    display: flex;
+    justify-content: center;
+    /* margin-left: 350px; */
+}
+
+.textopiedra {
+    margin-left: 40px;
+    margin-top: 50px;
+    margin-right: 40px;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.dardos {
+    display: flex;
+}
+
+.fotodardos {
+    height: 370px;
+    margin-left: 50px;
+    align-self: center;
+    margin-bottom: 50px;
+}
+
+/* PLANILLA CONTACTO */
+
+.formasdecontacto {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.contactomail {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logomaill {
+    margin-left: 15px;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 80px;
+    
+}
+
+.correo {
+    margin-left: 40px;
+}
+
+.mimail {
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.contactoinsta {
+    display: flex;
+}
+
+.Logoinsta {
+    margin-right: 75px;
+    width: 170px;
+    height: 150px;
+    margin-bottom: 73px;
+}
+
+.insta {
+    margin-left: 0px;
+}
+
+.miinsta {
+    font-size: 20px;
+}
+
+.contactotiktok {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logotiktok {
+    height: 150px;
+    margin-right: 20px;
+    margin-bottom: 73px;
+}
+
+.tikitoko {
+    margin-left: 40px;
+}
+
+.mitiktok {
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.logotwitchh {
+    margin-right: 20px;
+    width: 180px;
+    height: 160px;
+    margin-bottom: 73px;
+
+}
+
+.contactotwitch {
+    display: flex;
+}
+
+.twitchh {
+    margin-left: 45px;
+}
+
+.mitwitch {
+    margin-left: 45px;
+    font-size: 20px;
+}
+
+/* SIEMPRE AL FINAL LOS MEDIA QUERIES */
+
+
+/* TRABAJAMOS DESDE EL ESCRITORIO: EL MEDIA QUERIE QUE SE USA ES max-width */
+/* TRABAJAMOS DESDE EL ESCRITORIO ENTONCES EL MEDIA QUERIE VA DE MAYOR A MENOR,
+   SIENDO LA MEDIDA MAS PEQUEÑA LA QUE ESTARA AL FINAL DE TODO */
+@media only screen and (max-width: 1224px){
+    .contenedorimagen{
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+ 
+
+}
+@media only screen and (max-width:768px) {
+
+    header {
+        width: 100%;
+    }
+    .contenedorimagen{
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+ 
+    .videosyt {
+
+        flex-direction: row;
+        gap: 40px;
+        align-items: center;
+
+    }
+
+    /* INTEGRANTES */
+
+    .zukito{
+        display: inherit;
+    }
+    .fotozuko {
+        margin: 0px 20px 20px 20px;
+        width: 400px;
+        height: 500px;
+        float: left;
+    }
+    
+    .textozuko{
+        margin: 20px;
+    }
+
+    .footer {
+        padding-left: 0px;
+        display:flex;
+        justify-content: space-around;
+    }
+
+    .footer li {
+        margin: 0px;
+    }
+
+}
+
+@media only screen and (max-width:576px) {
+
+    header {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .menu-nav {
+        display: block;
+        align-self: center;
+        padding-inline-start: 0px;
+    }
+
+#logoprade {
+    display: none;
+}
+
+.paginas{ 
+    padding: 0;
+}
+.contenedorimagen {
+    display: inline;
+}
+
+.fotogrupal {
+    width: 450px ;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-left: 40px;
+}
+
+.logopraade {
+    width: 450px;
+    height: 150px;
+}
+
+.videosyt {
+
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    /* display: grid;
+    grid-template-columns: repeat(1,1fr);
+    row-gap: 40px;
+    margin-left: 10px; */
+}
+  
+.footer {
+    margin-right: 20px;
+}
+
+/* INTEGRANTES */
+
+.zukito {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.fotozuko{
+    margin: 0;
+}
+
+.redeszuko {
+    padding: 0px;
+     align-items: center;
+}
+.redeszuko li {
+    font-size: 16px;
+}
+
+.logoredes {
+    width: 40px;
+    height: 35px;
+    margin: 0;
+}
+
+.contenedorredes{ 
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0px;
+}
+.fotozukoo{
+    margin-left: 0;
+}
+
+.footer{
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.footer li {
+    margin: 0;
+}
+}
+    
+   
+
+
