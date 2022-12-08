@@ -163,7 +163,7 @@ footer {
 }
 
 .nombreintegrante:hover{
-    transform: scale(1.5);
+    transform: scale(1.3);
 }
 
 
@@ -316,6 +316,7 @@ footer {
 }
 
 .subtitulohistoria {
+    margin-top: 50px;
     text-align: center;
     margin-bottom: 40px;
     font-size: 25px;
@@ -491,7 +492,7 @@ footer {
     height: 150px;
     margin-left: 15px;
     margin-right: 20px;
-    margin-bottom: 73px;
+    margin-bottom: 120px;
 }
 
 .infotiktok {
