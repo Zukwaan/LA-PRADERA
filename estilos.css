@@ -8,7 +8,6 @@ body {
 header {
     /* position: sticky; */
     top: 0px;
-
 }
 
 h1 {
@@ -20,30 +19,30 @@ h1 {
     display: flex;
     justify-content: center;
     background-color: #FE9D28;
-    box-shadow: rgb(0 0 0 / 20%) 0px 3px 5px -1px, rgb(0 0 0 / 14%) 0px 6px 10px 0px, rgb(0 0 0 / 12%) 0px 1px 18px 0px
+    box-shadow: rgb(0 0 0 / 20%) 0px 3px 5px -1px, rgb(0 0 0 / 14%) 0px 6px 10px 0px, rgb(0 0 0 / 12%) 0px 1px 18px 0px;
+    position: relative;
 }
 
-.logoimagenn {
-    width: 20px;
-}
-
-.contenedorlogoprade{
+.contenedorlogo{
     width: 100%;
     display: flex;
     justify-content: center;
 }
-.logopraade {
+.logopraderagrande {
     display: flex;
     justify-content: center;
     width: 600px;
 }
 
 #logoprade {
-    width: 170px;
-    justify-content: flex-start;
+    width: 120px;
+    display: flex;
+    justify-content: center;
     margin: 10px;
-    border-radius: 20px;
-    height: 62px;
+    border-radius: 15px;
+    height: 47px;
+    position: absolute;
+    left: 5px;
 }
 /* .button{
     padding: 8px;
@@ -53,16 +52,12 @@ h1 {
     color: black;
     margin-left: 40px;
 } */
-.paginas {
-    text-align: center;
-    justify-content: center;
-    
-}
 
 .paginas li:hover{
 
-    background-color: red;
-    transform: rotate(20deg);
+    background-color: rgb(255, 189, 66);
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 10px;
 }
 
 ul li a {
@@ -78,7 +73,7 @@ ul li {
     margin: 0px 10px;
 }
 
-.contenedorimagen {
+.contenedorhistoria {
     display: flex;
     margin-top: 40px;
     margin-left: 40px;
@@ -116,23 +111,13 @@ ul li {
 .videosyt {
     display: flex;
     margin-top: 40px;
+    margin-bottom: 40px;
     justify-content: space-evenly;
     
 }
 
-#videosyt2 {
-    margin-bottom: 40px;
-}
-
 .video {
     box-shadow: rgb(0 0 0 / 20%) 0px 5px 5px -3px, rgb(0 0 0 / 14%) 0px 8px 10px 1px, rgb(0 0 0 / 12%) 0px 3px 14px 2px;
-}
-
-.contacto-sape {
-    background-image: url(../proyectopradera/logospradera/logopraderasinfondo2.png);
-    background-size: 225px;
-    background-repeat: space;
-
 }
 
 footer {
@@ -150,51 +135,53 @@ footer {
 
 /* PLANTILLA INTEGRANTES */
 
-.nombrezuko {
+.nombreintegrante {
     margin-right: 40px;
     margin-top: 40px;
 }
 
-.nombrezuko:hover{
+.nombreintegrante:hover{
     transform: translate(5px, 5px);
-    background-color: blue;
+    background-color: rgb(255, 189, 66);
+    border-radius: 10px;
+    border: 3px solid black;
 }
 
 
-.zukito {
+.titulo-integrantes {
     display: flex;
 }
 
-.textozuko {
+.infointegrante {
     margin: 40px;
     font-size: 19px;
     letter-spacing: 2px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.textozuko2 {
+.subtitulointegrante {
     margin: 40px;
     font-size: 19px;
     letter-spacing: 2px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.textozuko3 {
-    margin: 40px;
-    margin-top: 40px;
-    font-size: 19px;
-    letter-spacing: 2px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.fotozuko {
+.fotointegrantes {
     width: 520px;
     height: 650px;
     margin-top: 40px;
     margin-left: 40px;
 }
 
-.redeszuko {
+.fotointegrantes1 {
+    width: 520px;
+    height: 650px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.inforedes {
     display: flex;
     flex-direction: column;
     list-style: circle;
@@ -209,7 +196,7 @@ footer {
     /* text-decoration: dashed; */
 }
 
-.redeszukooo {
+.inforedes1 {
     display: flex;
     flex-direction: column;
     /* list-style: circle; */
@@ -225,37 +212,71 @@ footer {
     margin-left: 40px;
 }
 
-.fotozukoo {
-    width: 520px;
-    height: 650px;
-    margin-top: 40px;
-    margin-left: 40px;
-    margin-bottom: 40px;
-}
-
 /* biografia */
 
+.h1-integrantes {
+    margin-top: 25px;
+    margin-bottom: 0;
+    
+}
+
+
+.titulohistoria {
+    margin-top: 40px;
+}
+
+.titulohistoria:hover {
+    background-color: rgb(255, 189, 66);
+    border: solid 4px black;
+    border-radius: 10px;
+}
+
 .textohistoria {
-    margin-left: 40px;
+    margin-left: 20px;
     margin-right: 40px;
     margin-top: 40px;
     margin-bottom: 40px;
     font-size: 18px;
 }
 
-.titulohistoria {
-    margin-top: 40px;
+.imagenpradera {
+    margin: 24px;
+    width: 500px;
+    height: 320px;
+    float: left;
 }
 
-.textocasas {
+.textohistoria1 {
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+.imagenpradera1 {
+    margin: 24px;
+    width: 500px;
+    height: 320px;
+    float: right;
+}
+
+.imagenpradera2 {
+    margin: 24px;
+    width: 500px;
+    height: 320px;
+    float: left;
+}
+
+.subtitulohistoria {
     text-align: center;
     margin-bottom: 40px;
     font-size: 25px;
 }
 
-.videoscasas {
+.videoshistoria {
     margin-left: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     margin-right: 20px;
     width: 480px;
     flex-direction: row;
@@ -264,15 +285,15 @@ footer {
 
 /* PLANILLA PROYECTOS */
 
-.tituloproyecto {
+.tituloproyectos {
     margin-bottom: 50px;
 }
 
-.piedrapapelotijera {
+.primerproyecto {
     display: flex;
 }
 
-.piedra {
+.imagenproyecto1 {
     height: 380px;
     margin-left: 50px;
     align-self: center;
@@ -280,13 +301,13 @@ footer {
 
 }
 
-.titulopiedra {
+.nombreproyecto {
     display: flex;
     justify-content: center;
     /* margin-left: 350px; */
 }
 
-.textopiedra {
+.textoproyecto {
     margin-left: 40px;
     margin-top: 50px;
     margin-right: 40px;
@@ -294,11 +315,11 @@ footer {
     letter-spacing: 2px;
 }
 
-.dardos {
+.segundoproyecto {
     display: flex;
 }
 
-.fotodardos {
+.imagenproyecto2 {
     height: 370px;
     margin-left: 50px;
     align-self: center;
@@ -307,7 +328,7 @@ footer {
 
 /* PLANILLA CONTACTO */
 
-.formasdecontacto {
+.subtitulocontacto {
     margin-top: 50px;
     text-align: center;
     margin-bottom: 100px;
@@ -318,7 +339,7 @@ footer {
     justify-content: space-around;
 }
 
-.logomaill {
+.logomail {
     margin-left: 15px;
     width: 150px;
     height: 150px;
@@ -326,31 +347,31 @@ footer {
     
 }
 
-.correo {
+.infocorreo {
     margin-left: 40px;
 }
 
-.mimail {
+.mailcontacto {
     margin-left: 40px;
     font-size: 20px;
 }
 
-.contactoinsta {
+.contactoinstagram {
     display: flex;
 }
 
-.Logoinsta {
+.logoinstagram {
     margin-right: 75px;
     width: 170px;
     height: 150px;
     margin-bottom: 73px;
 }
 
-.insta {
+.infoinstagram {
     margin-left: 0px;
 }
 
-.miinsta {
+.instagramcontacto {
     font-size: 20px;
 }
 
@@ -365,16 +386,16 @@ footer {
     margin-bottom: 73px;
 }
 
-.tikitoko {
+.infotiktok {
     margin-left: 40px;
 }
 
-.mitiktok {
+.tiktokcontacto {
     margin-left: 40px;
     font-size: 20px;
 }
 
-.logotwitchh {
+.logotwitch {
     margin-right: 20px;
     width: 180px;
     height: 160px;
@@ -386,11 +407,11 @@ footer {
     display: flex;
 }
 
-.twitchh {
+.infotwitch {
     margin-left: 45px;
 }
 
-.mitwitch {
+.twitchcontacto {
     margin-left: 45px;
     font-size: 20px;
 }
@@ -410,38 +431,90 @@ footer {
  
 
 }
+
 @media only screen and (max-width:768px) {
+    
+    /* INICIO */
 
     header {
         width: 100%;
     }
-    .contenedorimagen{
+    .contenedorhistoria{
         flex-direction: column;
         align-items: center;
         margin: 0;
     }
+
+    .paginas {
+       display: grid;
+       grid-template-columns: repeat(3,4fr);
+       margin-left: 40px;
+    }
  
+    #logoprade {
+    margin-top: 30px;
+    }
+    
     .videosyt {
 
         flex-direction: row;
-        gap: 40px;
+        gap: 10px;
         align-items: center;
 
     }
 
+    .video {
+        width: 320px;
+        height: 270px;
+    }
+
+    footer ul {
+        margin: 0px;
+        padding: 0px;
+    }
+
     /* INTEGRANTES */
 
-    .zukito{
+    .titulo-integrantes{
         display: inherit;
     }
-    .fotozuko {
+    .fotointegrantes {
+        margin: 0px 20px 20px 20px;
+        width: 400px;
+        height: 500px;
+        float: left;
+    }
+
+    .logopraderagrande {
+        margin-top: 20px;
+    }
+    
+    .inforedes li {
+        display: flex;
+        justify-content: center;
+    }
+     
+    .fotointegrantes1 {
         margin: 0px 20px 20px 20px;
         width: 400px;
         height: 500px;
         float: left;
     }
     
-    .textozuko{
+    .redes img {
+       width: 60px;
+       height: 55px; 
+       margin: 10px;
+    }
+
+    .contenedorredes {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .infointegrante{
         margin: 20px;
     }
 
@@ -455,79 +528,150 @@ footer {
         margin: 0px;
     }
 
-}
+    /* BIOGRAFIA */
+    
+    .videosdeyoutube {
+        display: grid;
+        grid-template-rows: repeat(3, 3fr);
+        justify-content: center;
+    }
+    
+    /* PROYECTOS */
+
+    .primerproyecto {
+        display: block;
+        justify-content:center ;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .imagenproyecto1 {
+        margin: 0px; 
+        margin-bottom: 70px;   
+
+    }
+
+    .segundoproyecto {
+        display: block;
+        justify-content:center ;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .imagenproyecto2 {
+        margin: 0px;
+        margin-bottom: 70px;
+    }
+
+    /* CONTACTO */
+
+    .contactomail {
+        display: block;
+        margin-left: 50px;
+    }
+    
+    .contactotiktok {
+        display: block;
+        margin-left: 60px;
+    }
+
+    .infotiktok {
+        margin-left: 75px;
+    }
+    
+    .tiktokcontacto {
+        margin-left: 75px;
+    }
+
+    }
 
 @media only screen and (max-width:576px) {
+ 
+    /* INDEX-INICIO */
 
     header {
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
+        width: 100%;
     }
 
     .menu-nav {
-        display: block;
-        align-self: center;
-        padding-inline-start: 0px;
+        display: flex;
+        justify-content: center;
     }
 
-#logoprade {
-    display: none;
-}
+    #logoprade {
+        display: none;
+    }
 
-.paginas{ 
-    padding: 0;
-}
-.contenedorimagen {
-    display: inline;
-}
+    .paginas{
+        padding: 0;
+    }
+    .contenedorimagen {
+        display: inline;
+    }
 
-.fotogrupal {
-    width: 450px ;
-    height: 300px;
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    margin-left: 40px;
-}
+    .fotogrupal {
+        width: 450px ;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+    }
 
-.logopraade {
-    width: 450px;
-    height: 150px;
-}
+    .logopraderagrande {
+        width: 480px;
+        height: 150px;
+    }
 
 .videosyt {
 
-    flex-direction: column;
-    gap: 40px;
-    align-items: center;
+        flex-direction: column;
+        gap: 40px;
+      align-items: center;
     /* display: grid;
     grid-template-columns: repeat(1,1fr);
     row-gap: 40px;
     margin-left: 10px; */
 }
   
-.footer {
-    margin-right: 20px;
+.video {
+    width: 450px;
+    height: 270px;
 }
+
 
 /* INTEGRANTES */
 
-.zukito {
+.nombreintegrante {
+    margin-right: 0px;
+}
+
+.titulo-integrantes {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
 }
 
-.fotozuko{
+.fotointegrantes{
     margin: 0;
 }
 
-.redeszuko {
+.fotointegrantes1 {
+    margin-bottom: 35px;
+}
+
+.subtitulointegrante {
+    display: flex;
+    justify-content: center;
+}
+
+.inforedes {
     padding: 0px;
      align-items: center;
 }
-.redeszuko li {
-    font-size: 16px;
+.inforedes li {
+    font-size: 19px;
 }
 
 .logoredes {
@@ -536,12 +680,13 @@ footer {
     margin: 0;
 }
 
+
 .contenedorredes{ 
     display: flex;
     justify-content: space-around;
     padding-left: 0px;
 }
-.fotozukoo{
+.fotointegrantes {
     margin-left: 0;
 }
 
@@ -553,6 +698,116 @@ footer {
 .footer li {
     margin: 0;
 }
+
+/* BIOGRAFIA */
+
+.imagenpradera {
+    width: 470px;
+    height: 300px;
+    margin-left: 50px;
+    float: none;
+}
+
+
+.textohistoria {
+    margin-top: 0px;
+    margin-left: 35px;
+    text-align: center;
+} 
+
+.imagenpradera1 {
+    width: 470px;
+    height: 300px;
+    margin-left: 50px;
+    float: none;
+    }
+
+    .imagenpradera2 {
+        width: 470px;
+        height: 300px;
+        margin-left: 50px;
+        float: none;
+        }
+    
+        /* PROYECTOS */
+
+        .tituloproyectos {
+            margin-top: 40px;
+            margin-bottom: 30px;
+        }
+
+        .imagenproyecto1 {
+            margin-top: 25px;
+            width: 450px;
+            height: 330px;
+        }
+
+        .imagenproyecto2 {
+            margin-top: 25px;
+            width: 450px;
+            height: 330px;
+            margin-bottom: 50px;
+        }
+
+        /* CONTACTO */
+        
+        .formascomunicacion {
+           padding: 10px;
+        }
+
+        .subtitulocontacto {
+            margin-top: 35px;
+        }
+
+        .contactomail {
+            margin-left: 20px;
+        }
+
+        .infocorreo {
+            margin: 0px;
+            margin-top: 20px;
+        }
+
+        .mailcontacto {
+            margin: 0px;
+            margin-top: 20px;
+
+        }
+        
+        .infoinstagram {
+            margin-top: 20px;
+            margin-left: -40px;
+
+        }
+
+        .instagramcontacto {
+            margin-top: 20px;
+            margin-left: -40px;
+        }
+
+        .contactotiktok {
+            margin-left: 30px;
+        }
+
+        .infotiktok {
+            margin-top: 20px;
+            margin-left: 30px;
+        }
+
+        .tiktokcontacto {
+            margin-left: 30px;
+        }
+
+        .infotwitch {
+            margin-top: 30px;
+            margin-left: 15px;
+        }
+
+        .twitchcontacto {
+            margin-left: 15px;
+        }
+
+
 }
     
    
