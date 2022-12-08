@@ -32,6 +32,11 @@ h1 {
     display: flex;
     justify-content: center;
     width: 600px;
+    transition: transform 0.3s 10ms;
+}
+
+.logopraderagrande:hover {
+    transform: scale(1.1);
 }
 
 #logoprade {
@@ -43,21 +48,22 @@ h1 {
     height: 47px;
     position: absolute;
     left: 5px;
+    transition:transform 0.3s 10ms;
 }
-/* .button{
-    padding: 8px;
-    border-radius: 4px;
-    border: none;
-    background-color: palevioletred;
-    color: black;
-    margin-left: 40px;
-} */
+
+#logoprade:hover {
+    transform: scale(1.1);
+}
+
+.paginas li {
+    transition: transform 0.3s 2s;
+}
 
 .paginas li:hover{
 
     background-color: rgb(255, 189, 66);
-    border: 3px solid rgb(0, 0, 0);
-    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 12px;
 }
 
 ul li a {
@@ -73,6 +79,10 @@ ul li {
     margin: 0px 10px;
 }
 
+.titulobienvenidos:hover {
+        transform: scale(1.15);
+}
+
 .contenedorhistoria {
     display: flex;
     margin-top: 40px;
@@ -80,10 +90,6 @@ ul li {
 }
 
 .textoinicio {
-    /* display: flex;
-    align-items: flex-end;
-    display: flex;
-    justify-content: center; */
     margin: 40px;
     font-size: 18px;
     letter-spacing: 2px;
@@ -91,12 +97,23 @@ ul li {
 }
 
 .fotogrupal {
-    height: 400px;}
+    height: 400px;
+    box-shadow: rgb(0 0 0 / 20%) 0px 5px 5px -3px, rgb(0 0 0 / 14%) 0px 8px 10px 1px, rgb(0 0 0 / 12%) 0px 3px 14px 2px;
+    transition: transform 0.3s 10ms;
+}
+
+.fotogrupal:hover {
+    transform: scale(1.101);
+}
 
 .titulocontenido {
     display: flex;
     justify-content: center;
     margin-top: 30px;
+}
+
+.titulocontenido:hover {
+    transform: scale(1.1)
 }
 
 .subtitulocontenido {
@@ -118,6 +135,11 @@ ul li {
 
 .video {
     box-shadow: rgb(0 0 0 / 20%) 0px 5px 5px -3px, rgb(0 0 0 / 14%) 0px 8px 10px 1px, rgb(0 0 0 / 12%) 0px 3px 14px 2px;
+    transition: transform 0.3s 10ms;
+}
+
+.video:hover {
+    transform: scale(1.1);
 }
 
 footer {
@@ -141,7 +163,7 @@ footer {
 }
 
 .nombreintegrante:hover{
-    transform: translate(5px, 5px);
+    transform: translate(3px, 3px);
     background-color: rgb(255, 189, 66);
     border-radius: 10px;
     border: 3px solid black;
@@ -171,6 +193,12 @@ footer {
     height: 650px;
     margin-top: 40px;
     margin-left: 40px;
+    box-shadow: rgb(0 0 0 / 20%) 0px 5px 5px -3px, rgb(0 0 0 / 14%) 0px 8px 10px 1px, rgb(0 0 0 / 12%) 0px 3px 14px 2px;
+    transition: transform 0.3s 10ms;
+}
+
+.fotointegrantes:hover {
+    transform: scale(1.06);
 }
 
 .fotointegrantes1 {
@@ -179,6 +207,12 @@ footer {
     margin-top: 40px;
     margin-left: 40px;
     margin-bottom: 40px;
+    box-shadow: rgb(0 0 0 / 20%) 0px 5px 5px -3px, rgb(0 0 0 / 14%) 0px 8px 10px 1px, rgb(0 0 0 / 12%) 0px 3px 14px 2px;
+    transition: transform 0.3s 10ms;
+}
+
+.fotointegrantes1:hover {
+    transform: scale(1.06);
 }
 
 .inforedes {
@@ -188,12 +222,9 @@ footer {
     margin-top: 40px;
 }
 
-.redeszukoo {
-    display: flex;
-    flex-direction: column;
-    /* list-style: circle; */
-    margin-top: 40px;
-    /* text-decoration: dashed; */
+.logoredes:hover {
+    transform: scale(1.3);
+
 }
 
 .inforedes1 {
@@ -210,25 +241,26 @@ footer {
     width: 75px;
     height: 65px;
     margin-left: 40px;
+    transition: transform 0.35s 10ms;
 }
-
-/* biografia */
 
 .h1-integrantes {
     margin-top: 25px;
-    margin-bottom: 0;
-    
+    margin-bottom: 0;   
 }
 
+.h1-integrantes:hover {
+    transform: scale(1.15);
+}
+
+/* BIOGRAFIA */
 
 .titulohistoria {
     margin-top: 40px;
 }
 
 .titulohistoria:hover {
-    background-color: rgb(255, 189, 66);
-    border: solid 4px black;
-    border-radius: 10px;
+    transform: scale(1.15);
 }
 
 .textohistoria {
@@ -244,6 +276,12 @@ footer {
     width: 500px;
     height: 320px;
     float: left;
+    box-shadow: rgb(0 0 0 / 20%) 0px 5px 5px -3px, rgb(0 0 0 / 14%) 0px 8px 10px 1px, rgb(0 0 0 / 12%) 0px 3px 14px 2px;
+    transition: transform 0.3s 10ms;
+}
+
+.imagenpradera:hover {
+    transform: scale(1.06);
 }
 
 .textohistoria1 {
@@ -259,6 +297,12 @@ footer {
     width: 500px;
     height: 320px;
     float: right;
+    box-shadow: rgb(0 0 0 / 20%) 0px 5px 5px -3px, rgb(0 0 0 / 14%) 0px 8px 10px 1px, rgb(0 0 0 / 12%) 0px 3px 14px 2px;
+    transition: transform 0.3s 10ms;
+}
+
+.imagenpradera1:hover {
+    transform: scale(1.06);
 }
 
 .imagenpradera2 {
@@ -266,6 +310,12 @@ footer {
     width: 500px;
     height: 320px;
     float: left;
+    box-shadow: rgb(0 0 0 / 20%) 0px 5px 5px -3px, rgb(0 0 0 / 14%) 0px 8px 10px 1px, rgb(0 0 0 / 12%) 0px 3px 14px 2px;
+    transition: transform 0.3s 10ms;
+}
+
+.imagenpradera2:hover {
+    transform: scale(1.06);
 }
 
 .subtitulohistoria {
@@ -274,12 +324,22 @@ footer {
     font-size: 25px;
 }
 
+.subtitulohistoria:hover {
+    transform: scale(1.15);
+}
+
 .videoshistoria {
     margin-left: 20px;
     margin-bottom: 40px;
     margin-right: 20px;
     width: 480px;
-    flex-direction: row;
+    box-shadow: rgb(0 0 0 / 20%) 0px 5px 5px -3px, rgb(0 0 0 / 14%) 0px 8px 10px 1px, rgb(0 0 0 / 12%) 0px 3px 14px 2px;
+    transition: transform 0.3s 10ms;
+    
+}
+
+.videoshistoria:hover {
+        transform: scale(1.06);
     
 }
 
@@ -288,6 +348,12 @@ footer {
 .tituloproyectos {
     margin-bottom: 50px;
 }
+
+.tituloproyectos:hover {
+    transform: translatey(10px);
+    transform: scale(1.15);
+    }
+
 
 .primerproyecto {
     display: flex;
@@ -298,13 +364,22 @@ footer {
     margin-left: 50px;
     align-self: center;
     margin-bottom: 50px;
+    box-shadow: rgb(0 0 0 / 20%) 0px 5px 5px -3px, rgb(0 0 0 / 14%) 0px 8px 10px 1px, rgb(0 0 0 / 12%) 0px 3px 14px 2px;
+    transition: transform 0.3s 10ms;
 
+}
+
+.imagenproyecto1:hover {
+    transform: scale(1.1);
 }
 
 .nombreproyecto {
     display: flex;
     justify-content: center;
-    /* margin-left: 350px; */
+}
+
+.nombreproyecto:hover {
+    transform: scale(1.3);
 }
 
 .textoproyecto {
@@ -324,14 +399,28 @@ footer {
     margin-left: 50px;
     align-self: center;
     margin-bottom: 50px;
+    box-shadow: rgb(0 0 0 / 20%) 0px 5px 5px -3px, rgb(0 0 0 / 14%) 0px 8px 10px 1px, rgb(0 0 0 / 12%) 0px 3px 14px 2px;
+    transition: transform 0.3s 10ms;
+}
+
+.imagenproyecto2:hover {
+    transform: scale(1.1);
 }
 
 /* PLANILLA CONTACTO */
+
+.formascomunicacion:hover {
+    transform: scale(1.15);
+}
 
 .subtitulocontacto {
     margin-top: 50px;
     text-align: center;
     margin-bottom: 100px;
+}
+
+.subtitulocontacto:hover {
+    transform: scale(1.05);
 }
 
 .contactomail {
@@ -351,9 +440,17 @@ footer {
     margin-left: 40px;
 }
 
+.infocorreo:hover {
+    transform: scale(1.05);
+}
+
 .mailcontacto {
     margin-left: 40px;
     font-size: 20px;
+}
+
+.mailcontacto:hover {
+    transform: scale(1.02);
 }
 
 .contactoinstagram {
@@ -371,8 +468,16 @@ footer {
     margin-left: 0px;
 }
 
+.infoinstagram:hover {
+    transform: scale(1.05);
+}
+
 .instagramcontacto {
     font-size: 20px;
+}
+
+.instagramcontacto:hover {
+    transform: scale(1.02);
 }
 
 .contactotiktok {
@@ -382,17 +487,26 @@ footer {
 
 .logotiktok {
     height: 150px;
+    margin-left: 15px;
     margin-right: 20px;
     margin-bottom: 73px;
 }
 
 .infotiktok {
-    margin-left: 40px;
+    margin-left: 70px;
+}
+
+.infotiktok:hover {
+    transform: scale(1.05);
 }
 
 .tiktokcontacto {
-    margin-left: 40px;
+    margin-left: 70px;
     font-size: 20px;
+}
+
+.tiktokcontacto:hover {
+    transform: scale(1.02);
 }
 
 .logotwitch {
@@ -411,9 +525,17 @@ footer {
     margin-left: 45px;
 }
 
+.infotwitch:hover {
+    transform: scale(1.05);
+}
+
 .twitchcontacto {
     margin-left: 45px;
     font-size: 20px;
+}
+
+.twitchcontacto:hover {
+    transform: scale(1.02);
 }
 
 /* SIEMPRE AL FINAL LOS MEDIA QUERIES */
@@ -530,7 +652,7 @@ footer {
 
     /* BIOGRAFIA */
     
-    .videosdeyoutube {
+    .contenedorvideos {
         display: grid;
         grid-template-rows: repeat(3, 3fr);
         justify-content: center;
@@ -563,8 +685,16 @@ footer {
         margin-bottom: 70px;
     }
 
+    .textoproyecto {
+        text-align: center;
+    }
+
     /* CONTACTO */
 
+    .formascomunicacion {
+        padding: 18px;
+        margin-bottom: -10px;
+    }
     .contactomail {
         display: block;
         margin-left: 50px;
@@ -581,6 +711,22 @@ footer {
     
     .tiktokcontacto {
         margin-left: 75px;
+    }
+
+    .infotiktok {
+        margin-left: 55px;
+    }
+
+    .tiktokcontacto {
+        margin-left: 55px;
+    }
+
+    .infotwitch {
+        margin-left: 35px;
+    }
+
+    .twitchcontacto {
+        margin-left: 35px;
     }
 
     }
@@ -603,6 +749,10 @@ footer {
     #logoprade {
         display: none;
     }
+    
+    .textoinicio {
+        text-align: center;
+    }
 
     .paginas{
         padding: 0;
@@ -617,6 +767,7 @@ footer {
         display: flex;
         align-items: center;
         padding: 20px;
+        box-shadow: none;
     }
 
     .logopraderagrande {
@@ -657,6 +808,9 @@ footer {
     margin: 0;
 }
 
+.infointegrante {
+    text-align: center;
+}
 .fotointegrantes1 {
     margin-bottom: 35px;
 }
@@ -791,11 +945,11 @@ footer {
 
         .infotiktok {
             margin-top: 20px;
-            margin-left: 30px;
+            margin-left: 15px;
         }
 
         .tiktokcontacto {
-            margin-left: 30px;
+            margin-left: 15px;
         }
 
         .infotwitch {
