@@ -1,0 +1,687 @@
+@charset "UTF-8";
+body {
+  background-color: #FE9D28;
+  color: black;
+  font-family: 'Righteous', 'cursive';
+  margin: 0px; }
+
+header {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px -3px, rgba(0, 0, 0, 0.14) 0px 8px 10px 1px, rgba(0, 0, 0, 0.12) 0px 3px 14px 2px; }
+
+h1 {
+  text-align: center;
+  color: black; }
+
+.navbar-expand-lg {
+  padding: 0; }
+
+.nav-link {
+  color: black;
+  font-size: 21px;
+  font-weight: bold;
+  padding: 2px; }
+
+.navbar {
+  width: 100%;
+  padding: 0; }
+
+.navbar-collapse {
+  flex-grow: initial; }
+
+.contenedorlogo {
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+
+.logopraderagrande {
+  display: flex;
+  justify-content: center;
+  width: 600px;
+  transition: transform 0.3s 10ms; }
+
+.logopraderagrande:hover {
+  transform: scale(1.1); }
+
+#logoprade {
+  display: flex;
+  margin: 5px;
+  height: 50px;
+  transition: transform 0.3s 10ms; }
+
+#logoprade:hover {
+  transform: scale(1.1); }
+
+ul li a {
+  color: black;
+  text-decoration: none; }
+
+ul li {
+  list-style: none;
+  font-size: 30px;
+  font-weight: bold;
+  display: inline;
+  margin: 0px 10px; }
+
+.titulobienvenidos {
+  margin-top: 15px; }
+
+.titulobienvenidos:hover {
+  transform: scale(1.15); }
+
+.contenedorhistoria {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 40px; }
+
+.textoinicio {
+  margin: 40px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+
+.fotogrupal {
+  height: 400px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px -3px, rgba(0, 0, 0, 0.14) 0px 8px 10px 1px, rgba(0, 0, 0, 0.12) 0px 3px 14px 2px;
+  transition: transform 0.3s 10ms; }
+
+.fotogrupal:hover {
+  transform: scale(1.101); }
+
+.titulocontenido {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px; }
+
+.titulocontenido:hover {
+  transform: scale(1.1); }
+
+.subtitulocontenido {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 40px;
+  margin-left: 80px;
+  margin-right: 80px; }
+
+.videosyt {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  justify-content: space-evenly; }
+
+.video {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px -3px, rgba(0, 0, 0, 0.14) 0px 8px 10px 1px, rgba(0, 0, 0, 0.12) 0px 3px 14px 2px;
+  transition: transform 0.3s 10ms; }
+
+.video:hover {
+  transform: scale(1.1); }
+
+footer {
+  color: white;
+  background-color: black;
+  padding: 10px;
+  display: flex;
+  justify-content: center; }
+
+.redes {
+  color: white; }
+
+/* PLANTILLA INTEGRANTES */
+.nombreintegrante {
+  margin-right: 40px;
+  margin-top: 40px; }
+
+.nombreintegrante:hover {
+  transform: scale(1.3); }
+
+.titulo-integrantes {
+  display: flex; }
+
+.infointegrante {
+  margin: 40px;
+  font-size: 19px;
+  letter-spacing: 2px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+
+.subtitulointegrante {
+  margin: 40px;
+  font-size: 19px;
+  letter-spacing: 2px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+
+.fotointegrantes {
+  width: 520px;
+  height: 650px;
+  margin-top: 40px;
+  margin-left: 40px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px -3px, rgba(0, 0, 0, 0.14) 0px 8px 10px 1px, rgba(0, 0, 0, 0.12) 0px 3px 14px 2px;
+  transition: transform 0.3s 10ms; }
+
+.fotointegrantes:hover {
+  transform: scale(1.06); }
+
+.fotointegrantes1 {
+  width: 520px;
+  height: 650px;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px -3px, rgba(0, 0, 0, 0.14) 0px 8px 10px 1px, rgba(0, 0, 0, 0.12) 0px 3px 14px 2px;
+  transition: transform 0.3s 10ms; }
+
+.fotointegrantes1:hover {
+  transform: scale(1.06); }
+
+.inforedes {
+  display: flex;
+  flex-direction: column;
+  list-style: circle;
+  margin-top: 40px; }
+
+.logoredes:hover {
+  transform: scale(1.3); }
+
+.inforedes1 {
+  display: flex;
+  flex-direction: column;
+  /* list-style: circle; */
+  margin-top: 40px;
+  margin-bottom: 50px;
+  /* text-decoration: dashed; */ }
+
+.logoredes {
+  width: 75px;
+  height: 65px;
+  margin-left: 40px;
+  transition: transform 0.35s 10ms; }
+
+.h1-integrantes {
+  margin-top: 25px;
+  margin-bottom: 0; }
+
+.h1-integrantes:hover {
+  transform: scale(1.15); }
+
+/* BIOGRAFIA */
+.titulohistoria {
+  margin-top: 40px; }
+
+.titulohistoria:hover {
+  transform: scale(1.15); }
+
+.textohistoria {
+  margin-left: 20px;
+  margin-right: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 18px; }
+
+.imagenpradera {
+  margin: 24px;
+  width: 500px;
+  height: 320px;
+  float: left;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px -3px, rgba(0, 0, 0, 0.14) 0px 8px 10px 1px, rgba(0, 0, 0, 0.12) 0px 3px 14px 2px;
+  transition: transform 0.3s 10ms; }
+
+.imagenpradera:hover {
+  transform: scale(1.06); }
+
+.textohistoria1 {
+  margin-left: 20px;
+  margin-right: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 18px; }
+
+.imagenpradera1 {
+  margin: 24px;
+  width: 500px;
+  height: 320px;
+  float: right;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px -3px, rgba(0, 0, 0, 0.14) 0px 8px 10px 1px, rgba(0, 0, 0, 0.12) 0px 3px 14px 2px;
+  transition: transform 0.3s 10ms; }
+
+.imagenpradera1:hover {
+  transform: scale(1.06); }
+
+.imagenpradera2 {
+  margin: 24px;
+  width: 500px;
+  height: 320px;
+  float: left;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px -3px, rgba(0, 0, 0, 0.14) 0px 8px 10px 1px, rgba(0, 0, 0, 0.12) 0px 3px 14px 2px;
+  transition: transform 0.3s 10ms; }
+
+.imagenpradera2:hover {
+  transform: scale(1.06); }
+
+.subtitulohistoria {
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 25px; }
+
+.subtitulohistoria:hover {
+  transform: scale(1.15); }
+
+.contenedorvideos {
+  display: flex;
+  justify-content: space-evenly; }
+
+.videoshistoria {
+  margin-left: 20px;
+  margin-bottom: 40px;
+  margin-right: 20px;
+  width: 450px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px -3px, rgba(0, 0, 0, 0.14) 0px 8px 10px 1px, rgba(0, 0, 0, 0.12) 0px 3px 14px 2px;
+  transition: transform 0.3s 10ms; }
+
+.videoshistoria:hover {
+  transform: scale(1.06); }
+
+/* PLANILLA PROYECTOS */
+.tituloproyectos {
+  margin-bottom: 50px; }
+
+.tituloproyectos:hover {
+  transform: translatey(10px);
+  transform: scale(1.15); }
+
+.primerproyecto {
+  display: flex; }
+
+.imagenproyecto1 {
+  height: 380px;
+  margin-left: 50px;
+  align-self: center;
+  margin-bottom: 50px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px -3px, rgba(0, 0, 0, 0.14) 0px 8px 10px 1px, rgba(0, 0, 0, 0.12) 0px 3px 14px 2px;
+  transition: transform 0.3s 10ms; }
+
+.imagenproyecto1:hover {
+  transform: scale(1.1); }
+
+.nombreproyecto {
+  display: flex;
+  justify-content: center; }
+
+.nombreproyecto:hover {
+  transform: scale(1.3); }
+
+.textoproyecto {
+  margin-left: 40px;
+  margin-top: 50px;
+  margin-right: 40px;
+  font-size: 18px;
+  letter-spacing: 2px; }
+
+.segundoproyecto {
+  display: flex; }
+
+.imagenproyecto2 {
+  height: 370px;
+  margin-left: 50px;
+  align-self: center;
+  margin-bottom: 50px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px -3px, rgba(0, 0, 0, 0.14) 0px 8px 10px 1px, rgba(0, 0, 0, 0.12) 0px 3px 14px 2px;
+  transition: transform 0.3s 10ms; }
+
+.imagenproyecto2:hover {
+  transform: scale(1.1); }
+
+/* PLANILLA CONTACTO */
+.formascomunicacion:hover {
+  transform: scale(1.15); }
+
+.subtitulocontacto {
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 100px; }
+
+.subtitulocontacto:hover {
+  transform: scale(1.05); }
+
+.contactomail {
+  display: flex;
+  justify-content: space-around; }
+
+.logomail {
+  margin-left: 15px;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 80px; }
+
+.infocorreo {
+  margin-left: 40px; }
+
+.infocorreo:hover {
+  transform: scale(1.05); }
+
+.mailcontacto {
+  margin-left: 40px;
+  font-size: 20px; }
+
+.mailcontacto:hover {
+  transform: scale(1.02); }
+
+.contactoinstagram {
+  display: flex; }
+
+.logoinstagram {
+  margin-right: 75px;
+  width: 170px;
+  height: 150px;
+  margin-bottom: 73px; }
+
+.infoinstagram {
+  margin-left: 0px; }
+
+.infoinstagram:hover {
+  transform: scale(1.05); }
+
+.instagramcontacto {
+  font-size: 20px; }
+
+.instagramcontacto:hover {
+  transform: scale(1.02); }
+
+.contactotiktok {
+  display: flex;
+  justify-content: space-around; }
+
+.logotiktok {
+  height: 150px;
+  margin-left: 15px;
+  margin-right: 20px;
+  margin-bottom: 120px; }
+
+.infotiktok {
+  margin-left: 70px; }
+
+.infotiktok:hover {
+  transform: scale(1.05); }
+
+.tiktokcontacto {
+  margin-left: 70px;
+  font-size: 20px; }
+
+.tiktokcontacto:hover {
+  transform: scale(1.02); }
+
+.logotwitch {
+  margin-right: 20px;
+  width: 180px;
+  height: 160px;
+  margin-bottom: 73px; }
+
+.contactotwitch {
+  display: flex; }
+
+.infotwitch {
+  margin-left: 45px; }
+
+.infotwitch:hover {
+  transform: scale(1.05); }
+
+.twitchcontacto {
+  margin-left: 45px;
+  font-size: 20px; }
+
+.twitchcontacto:hover {
+  transform: scale(1.02); }
+
+/* SIEMPRE AL FINAL LOS MEDIA QUERIES */
+/* TRABAJAMOS DESDE EL ESCRITORIO: EL MEDIA QUERIE QUE SE USA ES max-width */
+/* TRABAJAMOS DESDE EL ESCRITORIO ENTONCES EL MEDIA QUERIE VA DE MAYOR A MENOR,
+   SIENDO LA MEDIDA MAS PEQUEÑA LA QUE ESTARA AL FINAL DE TODO */
+@media only screen and (max-width: 1224px) {
+  .contenedorimagen {
+    flex-direction: column;
+    align-items: center;
+    margin: 0; } }
+
+@media only screen and (max-width: 768px) {
+  /* INICIO */
+  header {
+    width: 100%; }
+  .contenedorhistoria {
+    flex-direction: column;
+    align-items: center;
+    margin: 0; }
+  .paginas {
+    display: grid;
+    grid-template-columns: repeat(3, 4fr);
+    margin-left: 40px; }
+  #logoprade {
+    margin-top: 30px; }
+  .videosyt {
+    flex-direction: row;
+    gap: 10px;
+    align-items: center; }
+  .video {
+    width: 320px;
+    height: 270px; }
+  footer ul {
+    margin: 0px;
+    padding: 0px; }
+  /* INTEGRANTES */
+  .titulo-integrantes {
+    display: inherit; }
+  .fotointegrantes {
+    margin: 0px 20px 20px 20px;
+    width: 400px;
+    height: 500px;
+    float: left; }
+  .logopraderagrande {
+    margin-top: 20px; }
+  .inforedes li {
+    display: flex;
+    justify-content: center; }
+  .fotointegrantes1 {
+    margin: 0px 20px 20px 20px;
+    width: 400px;
+    height: 500px;
+    float: left; }
+  .redes img {
+    width: 60px;
+    height: 55px;
+    margin: 10px; }
+  .contenedorredes {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0; }
+  .infointegrante {
+    margin: 20px; }
+  .footer {
+    padding-left: 0px;
+    display: flex;
+    justify-content: space-around; }
+  .footer li {
+    margin: 0px; }
+  /* BIOGRAFIA */
+  .contenedorvideos {
+    display: grid;
+    grid-template-rows: repeat(3, 3fr);
+    justify-content: center; }
+  /* PROYECTOS */
+  .primerproyecto {
+    display: block;
+    justify-content: center;
+    display: flex;
+    flex-direction: column-reverse; }
+  .imagenproyecto1 {
+    margin: 0px;
+    margin-bottom: 70px; }
+  .segundoproyecto {
+    display: block;
+    justify-content: center;
+    display: flex;
+    flex-direction: column-reverse; }
+  .imagenproyecto2 {
+    margin: 0px;
+    margin-bottom: 70px; }
+  .textoproyecto {
+    text-align: center; }
+  /* CONTACTO */
+  .formascomunicacion {
+    padding: 18px;
+    margin-bottom: -10px; }
+  .contactomail {
+    display: block;
+    margin-left: 50px; }
+  .contactotiktok {
+    display: block;
+    margin-left: 60px; }
+  .infotiktok {
+    margin-left: 75px; }
+  .tiktokcontacto {
+    margin-left: 75px; }
+  .infotiktok {
+    margin-left: 55px; }
+  .tiktokcontacto {
+    margin-left: 55px; }
+  .infotwitch {
+    margin-left: 35px; }
+  .twitchcontacto {
+    margin-left: 35px; } }
+
+@media only screen and (max-width: 576px) {
+  /* INDEX-INICIO */
+  header {
+    display: flex;
+    justify-content: center;
+    width: 100%; }
+  .menu-nav {
+    display: flex;
+    justify-content: center; }
+  #logoprade {
+    display: none; }
+  .textoinicio {
+    text-align: center; }
+  .paginas {
+    padding: 0; }
+  .contenedorimagen {
+    display: inline; }
+  .fotogrupal {
+    width: 450px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    box-shadow: none; }
+  .logopraderagrande {
+    width: 480px;
+    height: 150px; }
+  .videosyt {
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    /* display: grid;
+    grid-template-columns: repeat(1,1fr);
+    row-gap: 40px;
+    margin-left: 10px; */ }
+  .video {
+    width: 450px;
+    height: 270px; }
+  /* INTEGRANTES */
+  .nombreintegrante {
+    margin-right: 0px; }
+  .titulo-integrantes {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center; }
+  .fotointegrantes {
+    margin: 0; }
+  .infointegrante {
+    text-align: center; }
+  .fotointegrantes1 {
+    margin-bottom: 35px; }
+  .subtitulointegrante {
+    display: flex;
+    justify-content: center; }
+  .inforedes {
+    padding: 0px;
+    align-items: center; }
+  .inforedes li {
+    font-size: 19px; }
+  .logoredes {
+    width: 40px;
+    height: 35px;
+    margin: 0; }
+  .contenedorredes {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0px; }
+  .fotointegrantes {
+    margin-left: 0; }
+  .footer {
+    padding: 0;
+    display: flex;
+    justify-content: space-around; }
+  .footer li {
+    margin: 0; }
+  /* BIOGRAFIA */
+  .imagenpradera {
+    width: 470px;
+    height: 300px;
+    margin-left: 50px;
+    float: none; }
+  .textohistoria {
+    margin-top: 0px;
+    margin-left: 35px;
+    text-align: center; }
+  .imagenpradera1 {
+    width: 470px;
+    height: 300px;
+    margin-left: 50px;
+    float: none; }
+  .imagenpradera2 {
+    width: 470px;
+    height: 300px;
+    margin-left: 50px;
+    float: none; }
+  /* PROYECTOS */
+  .tituloproyectos {
+    margin-top: 40px;
+    margin-bottom: 30px; }
+  .imagenproyecto1 {
+    margin-top: 25px;
+    width: 450px;
+    height: 330px; }
+  .imagenproyecto2 {
+    margin-top: 25px;
+    width: 450px;
+    height: 330px;
+    margin-bottom: 50px; }
+  /* CONTACTO */
+  .formascomunicacion {
+    padding: 10px; }
+  .subtitulocontacto {
+    margin-top: 35px; }
+  .contactomail {
+    margin-left: 20px; }
+  .infocorreo {
+    margin: 0px;
+    margin-top: 20px; }
+  .mailcontacto {
+    margin: 0px;
+    margin-top: 20px; }
+  .infoinstagram {
+    margin-top: 20px;
+    margin-left: -40px; }
+  .instagramcontacto {
+    margin-top: 20px;
+    margin-left: -40px; }
+  .contactotiktok {
+    margin-left: 30px; }
+  .infotiktok {
+    margin-top: 20px;
+    margin-left: 15px; }
+  .tiktokcontacto {
+    margin-left: 15px; }
+  .infotwitch {
+    margin-top: 30px;
+    margin-left: 15px; }
+  .twitchcontacto {
+    margin-left: 15px; } }

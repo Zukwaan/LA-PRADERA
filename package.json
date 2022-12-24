@@ -1,0 +1,22 @@
+{
+  "name": "proyectolapradera",
+  "version": "1.0.0",
+  "description": "Proyecto de La Pradera",
+  "main": "index.js",
+  "scripts": {
+     "build-sass": "node-sass --include-path scss scss/main.scss css/estilos.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zukwaan/LA-PRADERA.git"
+  },
+  "author": "Martin Zunino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zukwaan/LA-PRADERA/issues"
+  },
+  "homepage": "https://github.com/Zukwaan/LA-PRADERA#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
