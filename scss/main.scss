@@ -1,3 +1,15 @@
 @import "componentes/variables";
 
-@import 'estilos';
+@import 'componentes/global';
+
+@import 'paginas/integrantes.scss';
+
+@import 'paginas/biografia.scss';
+
+@import 'paginas/proyecto.scss';
+
+@import 'paginas/contacto.scss';
+
+@import 'componentes/mediaqueries.scss';
+
+@import 'paginas/inicio.scss';

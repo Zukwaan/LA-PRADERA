@@ -1,0 +1,72 @@
+body {
+    background-color: #FE9D28;
+    color: black;
+    font-family: 'Righteous', 'cursive';
+    margin: 0px;
+}
+
+header {
+    box-shadow: $sombra;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+.navbar-expand-lg {
+    padding: 0;
+}
+
+.nav-link {
+    color: black;
+    font-size: 21px;
+    font-weight: bold;
+    padding: 2px;
+}
+
+.navbar {
+    width: 100%;
+    padding: 0;
+
+.navbar-collapse {
+    flex-grow: initial;
+
+}
+}
+
+footer {
+    color: white;
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+
+    ul {
+        margin: 0;
+        padding: 0;
+        
+    }
+}
+
+
+.redes {
+    color: white;
+}
+
+
+#logoprade {
+    display: flex;
+    margin: 5px;
+    margin-left: -8px;
+    padding: 5px;
+    height: 50px;
+    border-radius: 17px;
+    transition:transform 0.3s 10ms;
+
+
+    &:hover {
+    transform: scale(1.1);
+}
+
+}

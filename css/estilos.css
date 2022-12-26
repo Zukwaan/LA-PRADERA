@@ -1,4 +1,3 @@
-@charset "UTF-8";
 body {
   background-color: #FE9D28;
   color: black;
@@ -24,96 +23,8 @@ h1 {
 .navbar {
   width: 100%;
   padding: 0; }
-
-.navbar-collapse {
-  flex-grow: initial; }
-
-.contenedorlogo {
-  width: 100%;
-  display: flex;
-  justify-content: center; }
-
-.logopraderagrande {
-  display: flex;
-  justify-content: center;
-  width: 600px;
-  transition: transform 0.3s 10ms; }
-
-.logopraderagrande:hover {
-  transform: scale(1.1); }
-
-#logoprade {
-  display: flex;
-  margin: 5px;
-  height: 50px;
-  transition: transform 0.3s 10ms; }
-
-#logoprade:hover {
-  transform: scale(1.1); }
-
-ul li a {
-  color: black;
-  text-decoration: none; }
-
-ul li {
-  list-style: none;
-  font-size: 30px;
-  font-weight: bold;
-  display: inline;
-  margin: 0px 10px; }
-
-.titulobienvenidos {
-  margin-top: 15px; }
-
-.titulobienvenidos:hover {
-  transform: scale(1.15); }
-
-.contenedorhistoria {
-  display: flex;
-  margin-top: 40px;
-  margin-left: 40px; }
-
-.textoinicio {
-  margin: 40px;
-  font-size: 18px;
-  letter-spacing: 2px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
-
-.fotogrupal {
-  height: 400px;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px -3px, rgba(0, 0, 0, 0.14) 0px 8px 10px 1px, rgba(0, 0, 0, 0.12) 0px 3px 14px 2px;
-  transition: transform 0.3s 10ms; }
-
-.fotogrupal:hover {
-  transform: scale(1.101); }
-
-.titulocontenido {
-  display: flex;
-  justify-content: center;
-  margin-top: 30px; }
-
-.titulocontenido:hover {
-  transform: scale(1.1); }
-
-.subtitulocontenido {
-  text-align: center;
-  font-size: 18px;
-  margin-top: 40px;
-  margin-left: 80px;
-  margin-right: 80px; }
-
-.videosyt {
-  display: flex;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  justify-content: space-evenly; }
-
-.video {
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px -3px, rgba(0, 0, 0, 0.14) 0px 8px 10px 1px, rgba(0, 0, 0, 0.12) 0px 3px 14px 2px;
-  transition: transform 0.3s 10ms; }
-
-.video:hover {
-  transform: scale(1.1); }
+  .navbar .navbar-collapse {
+    flex-grow: initial; }
 
 footer {
   color: white;
@@ -121,11 +32,29 @@ footer {
   padding: 10px;
   display: flex;
   justify-content: center; }
+  footer ul {
+    margin: 0;
+    padding: 0; }
 
 .redes {
   color: white; }
 
-/* PLANTILLA INTEGRANTES */
+#logoprade {
+  display: flex;
+  margin: 5px;
+  margin-left: -8px;
+  padding: 5px;
+  height: 50px;
+  border-radius: 17px;
+  transition: transform 0.3s 10ms; }
+  #logoprade:hover {
+    transform: scale(1.1); }
+
+.h-integrantes {
+  margin-top: 30px; }
+  .h-integrantes:hover {
+    transform: scale(1.2); }
+
 .nombreintegrante {
   margin-right: 40px;
   margin-top: 40px; }
@@ -183,10 +112,8 @@ footer {
 .inforedes1 {
   display: flex;
   flex-direction: column;
-  /* list-style: circle; */
   margin-top: 40px;
-  margin-bottom: 50px;
-  /* text-decoration: dashed; */ }
+  margin-bottom: 50px; }
 
 .logoredes {
   width: 75px;
@@ -201,9 +128,8 @@ footer {
 .h1-integrantes:hover {
   transform: scale(1.15); }
 
-/* BIOGRAFIA */
 .titulohistoria {
-  margin-top: 40px; }
+  margin-top: 30px; }
 
 .titulohistoria:hover {
   transform: scale(1.15); }
@@ -279,9 +205,9 @@ footer {
 .videoshistoria:hover {
   transform: scale(1.06); }
 
-/* PLANILLA PROYECTOS */
 .tituloproyectos {
-  margin-bottom: 50px; }
+  margin-top: 30px;
+  margin-bottom: 40px; }
 
 .tituloproyectos:hover {
   transform: translatey(10px);
@@ -329,9 +255,10 @@ footer {
 .imagenproyecto2:hover {
   transform: scale(1.1); }
 
-/* PLANILLA CONTACTO */
-.formascomunicacion:hover {
-  transform: scale(1.15); }
+.formascomunicacion {
+  margin-top: 30px; }
+  .formascomunicacion:hover {
+    transform: scale(1.15); }
 
 .subtitulocontacto {
   margin-top: 50px;
@@ -430,10 +357,6 @@ footer {
 .twitchcontacto:hover {
   transform: scale(1.02); }
 
-/* SIEMPRE AL FINAL LOS MEDIA QUERIES */
-/* TRABAJAMOS DESDE EL ESCRITORIO: EL MEDIA QUERIE QUE SE USA ES max-width */
-/* TRABAJAMOS DESDE EL ESCRITORIO ENTONCES EL MEDIA QUERIE VA DE MAYOR A MENOR,
-   SIENDO LA MEDIDA MAS PEQUEÑA LA QUE ESTARA AL FINAL DE TODO */
 @media only screen and (max-width: 1224px) {
   .contenedorimagen {
     flex-direction: column;
@@ -453,7 +376,9 @@ footer {
     grid-template-columns: repeat(3, 4fr);
     margin-left: 40px; }
   #logoprade {
-    margin-top: 30px; }
+    padding: 2px;
+    margin: 4px;
+    margin-left: -5px; }
   .videosyt {
     flex-direction: row;
     gap: 10px;
@@ -556,7 +481,9 @@ footer {
     display: flex;
     justify-content: center; }
   #logoprade {
-    display: none; }
+    padding: 2px;
+    margin: 5px;
+    margin-left: -5px; }
   .textoinicio {
     text-align: center; }
   .paginas {
@@ -685,3 +612,82 @@ footer {
     margin-left: 15px; }
   .twitchcontacto {
     margin-left: 15px; } }
+
+.contenedorlogo {
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+
+.logopraderagrande {
+  display: flex;
+  justify-content: center;
+  width: 600px;
+  transition: transform 0.4s 10ms; }
+  .logopraderagrande:hover {
+    transform: scale(1.1); }
+
+.nav-link {
+  transition: transform 0.3s 2s; }
+  .nav-link:hover {
+    background-color: #ffbd42;
+    border: 2px solid black;
+    border-radius: 12px; }
+
+ul li {
+  list-style: none;
+  font-size: 30px;
+  font-weight: bold;
+  display: inline;
+  margin: 0px 10px; }
+  ul li a {
+    color: black;
+    text-decoration: none; }
+
+.titulobienvenidos {
+  margin-top: 30px; }
+  .titulobienvenidos:hover {
+    transform: scale(1.15); }
+
+.contenedorhistoria {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 40px; }
+
+.textoinicio {
+  margin: 40px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+
+.fotogrupal {
+  height: 400px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px -3px, rgba(0, 0, 0, 0.14) 0px 8px 10px 1px, rgba(0, 0, 0, 0.12) 0px 3px 14px 2px;
+  transition: transform 0.3s 10ms; }
+  .fotogrupal:hover {
+    transform: scale(1.101); }
+
+.titulocontenido {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px; }
+  .titulocontenido:hover {
+    transform: scale(1.1); }
+
+.subtitulocontenido {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 40px;
+  margin-left: 80px;
+  margin-right: 80px; }
+
+.videosyt {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  justify-content: space-evenly; }
+
+.video {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px -3px, rgba(0, 0, 0, 0.14) 0px 8px 10px 1px, rgba(0, 0, 0, 0.12) 0px 3px 14px 2px;
+  transition: transform 0.3s 10ms; }
+  .video:hover {
+    transform: scale(1.1); }

@@ -1,0 +1,98 @@
+.h-integrantes {
+    margin-top: 30px;
+
+    &:hover {
+        transform: scale(1.2);
+    }
+}
+
+.nombreintegrante {
+    margin-right: 40px;
+    margin-top: 40px;
+}
+
+.nombreintegrante:hover{
+    transform: scale(1.3);
+}
+
+
+.titulo-integrantes {
+    display: flex;
+}
+
+.infointegrante {
+    margin: 40px;
+    font-size: 19px;
+    letter-spacing: 2px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.subtitulointegrante {
+    margin: 40px;
+    font-size: 19px;
+    letter-spacing: 2px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.fotointegrantes {
+    width: 520px;
+    height: 650px;
+    margin-top: 40px;
+    margin-left: 40px;
+    box-shadow: $sombra;
+    transition: transform 0.3s 10ms;
+}
+
+.fotointegrantes:hover {
+    transform: scale(1.06);
+}
+
+.fotointegrantes1 {
+    width: 520px;
+    height: 650px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    box-shadow: $sombra;
+    transition: transform 0.3s 10ms;
+}
+
+.fotointegrantes1:hover {
+    transform: scale(1.06);
+}
+
+.inforedes {
+    display: flex;
+    flex-direction: column;
+    list-style: circle;
+    margin-top: 40px;
+}
+
+.logoredes:hover {
+    transform: scale(1.3);
+
+}
+
+.inforedes1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+
+.logoredes {
+    width: 75px;
+    height: 65px;
+    margin-left: 40px;
+    transition: transform 0.35s 10ms;
+}
+
+.h1-integrantes {
+    margin-top: 25px;
+    margin-bottom: 0;   
+}
+
+.h1-integrantes:hover {
+    transform: scale(1.15);
+}

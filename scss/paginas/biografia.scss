@@ -1,0 +1,93 @@
+.titulohistoria {
+    margin-top: 30px;
+}
+
+.titulohistoria:hover {
+    transform: scale(1.15);
+}
+
+.textohistoria {
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+.imagenpradera {
+    margin: 24px;
+    width: 500px;
+    height: 320px;
+    float: left;
+    box-shadow: $sombra;
+    transition: transform 0.3s 10ms;
+}
+
+.imagenpradera:hover {
+    transform: scale(1.06);
+}
+
+.textohistoria1 {
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+.imagenpradera1 {
+    margin: 24px;
+    width: 500px;
+    height: 320px;
+    float: right;
+    box-shadow: $sombra;
+    transition: transform 0.3s 10ms;
+}
+
+.imagenpradera1:hover {
+    transform: scale(1.06);
+}
+
+.imagenpradera2 {
+    margin: 24px;
+    width: 500px;
+    height: 320px;
+    float: left;
+    box-shadow: $sombra;
+    transition: transform 0.3s 10ms;
+}
+
+.imagenpradera2:hover {
+    transform: scale(1.06);
+}
+
+.subtitulohistoria {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 25px;
+}
+
+.subtitulohistoria:hover {
+    transform: scale(1.15);
+}
+
+.contenedorvideos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.videoshistoria {
+    margin-left: 20px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    width: 450px;
+    box-shadow: $sombra;
+    transition: transform 0.3s 10ms;
+    
+}
+
+.videoshistoria:hover {
+        transform: scale(1.06);
+    
+}

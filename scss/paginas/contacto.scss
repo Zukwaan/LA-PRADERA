@@ -1,0 +1,133 @@
+.formascomunicacion {
+    margin-top: 30px;
+
+&:hover {
+    transform: scale(1.15);
+}
+
+}
+
+.subtitulocontacto {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.subtitulocontacto:hover {
+    transform: scale(1.05);
+}
+
+.contactomail {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logomail {
+    margin-left: 15px;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 80px;
+    
+}
+
+.infocorreo {
+    margin-left: 40px;
+}
+
+.infocorreo:hover {
+    transform: scale(1.05);
+}
+
+.mailcontacto {
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.mailcontacto:hover {
+    transform: scale(1.02);
+}
+
+.contactoinstagram {
+    display: flex;
+}
+
+.logoinstagram {
+    margin-right: 75px;
+    width: 170px;
+    height: 150px;
+    margin-bottom: 73px;
+}
+
+.infoinstagram {
+    margin-left: 0px;
+}
+
+.infoinstagram:hover {
+    transform: scale(1.05);
+}
+
+.instagramcontacto {
+    font-size: 20px;
+}
+
+.instagramcontacto:hover {
+    transform: scale(1.02);
+}
+
+.contactotiktok {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logotiktok {
+    height: 150px;
+    margin-left: 15px;
+    margin-right: 20px;
+    margin-bottom: 120px;
+}
+
+.infotiktok {
+    margin-left: 70px;
+}
+
+.infotiktok:hover {
+    transform: scale(1.05);
+}
+
+.tiktokcontacto {
+    margin-left: 70px;
+    font-size: 20px;
+}
+
+.tiktokcontacto:hover {
+    transform: scale(1.02);
+}
+
+.logotwitch {
+    margin-right: 20px;
+    width: 180px;
+    height: 160px;
+    margin-bottom: 73px;
+
+}
+
+.contactotwitch {
+    display: flex;
+}
+
+.infotwitch {
+    margin-left: 45px;
+}
+
+.infotwitch:hover {
+    transform: scale(1.05);
+}
+
+.twitchcontacto {
+    margin-left: 45px;
+    font-size: 20px;
+}
+
+.twitchcontacto:hover {
+    transform: scale(1.02);
+}

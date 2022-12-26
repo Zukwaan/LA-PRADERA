@@ -1,0 +1,62 @@
+.tituloproyectos {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.tituloproyectos:hover {
+    transform: translatey(10px);
+    transform: scale(1.15);
+    }
+
+
+.primerproyecto {
+    display: flex;
+}
+
+.imagenproyecto1 {
+    height: 380px;
+    margin-left: 50px;
+    align-self: center;
+    margin-bottom: 50px;
+    box-shadow: $sombra;
+    transition: transform 0.3s 10ms;
+
+}
+
+.imagenproyecto1:hover {
+    transform: scale(1.1);
+}
+
+.nombreproyecto {
+    display: flex;
+    justify-content: center;
+}
+
+.nombreproyecto:hover {
+    transform: scale(1.3);
+}
+
+.textoproyecto {
+    margin-left: 40px;
+    margin-top: 50px;
+    margin-right: 40px;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.segundoproyecto {
+    display: flex;
+}
+
+.imagenproyecto2 {
+    height: 370px;
+    margin-left: 50px;
+    align-self: center;
+    margin-bottom: 50px;
+    box-shadow: $sombra;
+    transition: transform 0.3s 10ms;
+}
+
+.imagenproyecto2:hover {
+    transform: scale(1.1);
+}
