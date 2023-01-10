@@ -490,16 +490,19 @@ footer {
     padding: 0; }
   .contenedorimagen {
     display: inline; }
+  .nav-item {
+    margin-left: 240px; }
   .fotogrupal {
     width: 450px;
     height: 300px;
     display: flex;
+    margin-right: 35px;
     align-items: center;
-    padding: 20px;
-    box-shadow: none; }
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px -3px, rgba(0, 0, 0, 0.14) 0px 8px 10px 1px, rgba(0, 0, 0, 0.12) 0px 3px 14px 2px; }
   .logopraderagrande {
-    width: 480px;
-    height: 150px; }
+    width: 250px;
+    height: 150px;
+    margin-right: 25px; }
   .videosyt {
     flex-direction: column;
     gap: 40px;
@@ -621,10 +624,10 @@ footer {
 .logopraderagrande {
   display: flex;
   justify-content: center;
-  width: 600px;
-  transition: transform 0.4s 10ms; }
+  width: 550px;
+  transition: transform 1s 10ms; }
   .logopraderagrande:hover {
-    transform: scale(1.1); }
+    transform: scale(1.5); }
 
 .nav-link {
   transition: transform 0.3s 2s; }
@@ -654,7 +657,7 @@ ul li {
   margin-left: 40px; }
 
 .textoinicio {
-  margin: 40px;
+  margin: 30px;
   font-size: 18px;
   letter-spacing: 2px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }

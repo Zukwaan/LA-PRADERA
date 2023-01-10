@@ -218,21 +218,26 @@
     .contenedorimagen {
         display: inline;
     }
-
+    
+    .nav-item {
+        margin-left:240px;
+    }
     .fotogrupal {
         width: 450px ;
         height: 300px;
         display: flex;
+        margin-right: 35px;
         align-items: center;
-        padding: 20px;
-        box-shadow: none;
+        box-shadow: $sombra;
     }
 
     .logopraderagrande {
-        width: 480px;
+        width: 250px;
         height: 150px;
+        margin-right: 25px;
     }
 
+    
 .videosyt {
 
         flex-direction: column;
