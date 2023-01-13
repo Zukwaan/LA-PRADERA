@@ -1,3 +1,82 @@
+.contenedorlogo {
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+
+.logopraderagrande {
+  display: flex;
+  justify-content: center;
+  width: 600px;
+  transition: transform 1s 10ms; }
+  .logopraderagrande:hover {
+    transform: scale(1.5); }
+
+.nav-link {
+  transition: transform 0.3s 2s; }
+  .nav-link:hover {
+    background-color: #ffbd42;
+    border: 2px solid black;
+    border-radius: 12px; }
+
+ul li {
+  list-style: none;
+  font-size: 30px;
+  font-weight: bold;
+  display: inline;
+  margin: 0px 10px; }
+  ul li a {
+    color: black;
+    text-decoration: none; }
+
+.titulobienvenidos {
+  margin-top: 30px; }
+  .titulobienvenidos:hover {
+    transform: scale(1.15); }
+
+.contenedorhistoria {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 40px; }
+
+.textoinicio {
+  margin: 30px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+
+.fotogrupal {
+  height: 400px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px -3px, rgba(0, 0, 0, 0.14) 0px 8px 10px 1px, rgba(0, 0, 0, 0.12) 0px 3px 14px 2px;
+  transition: transform 0.3s 10ms; }
+  .fotogrupal:hover {
+    transform: scale(1.101); }
+
+.titulocontenido {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px; }
+  .titulocontenido:hover {
+    transform: scale(1.1); }
+
+.subtitulocontenido {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 40px;
+  margin-left: 80px;
+  margin-right: 80px; }
+
+.videosyt {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  justify-content: space-evenly; }
+
+.video {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px -3px, rgba(0, 0, 0, 0.14) 0px 8px 10px 1px, rgba(0, 0, 0, 0.12) 0px 3px 14px 2px;
+  transition: transform 0.3s 10ms; }
+  .video:hover {
+    transform: scale(1.1); }
+
 body {
   background-color: #FE9D28;
   color: black;
@@ -365,12 +444,16 @@ footer {
 
 @media only screen and (max-width: 768px) {
   /* INICIO */
+  .nav-item {
+    margin-left: 600px; }
   header {
     width: 100%; }
   .contenedorhistoria {
     flex-direction: column;
     align-items: center;
     margin: 0; }
+  .titulobienvenidos {
+    margin-bottom: 30px; }
   .paginas {
     display: grid;
     grid-template-columns: repeat(3, 4fr);
@@ -422,6 +505,8 @@ footer {
     padding-left: 0px;
     display: flex;
     justify-content: space-around; }
+  .contenedorredes {
+    margin-bottom: 50px; }
   .footer li {
     margin: 0px; }
   /* BIOGRAFIA */
@@ -463,13 +548,16 @@ footer {
   .tiktokcontacto {
     margin-left: 75px; }
   .infotiktok {
-    margin-left: 55px; }
+    margin-left: 55px;
+    width: 70%; }
   .tiktokcontacto {
     margin-left: 55px; }
   .infotwitch {
-    margin-left: 35px; }
+    margin-left: 35px;
+    width: 70%; }
   .twitchcontacto {
-    margin-left: 35px; } }
+    margin-left: 35px;
+    width: 50%; } }
 
 @media only screen and (max-width: 576px) {
   /* INDEX-INICIO */
@@ -484,6 +572,8 @@ footer {
     padding: 2px;
     margin: 5px;
     margin-left: -5px; }
+  .titulobienvenidos {
+    margin-bottom: 30px; }
   .textoinicio {
     text-align: center; }
   .paginas {
@@ -496,21 +586,15 @@ footer {
     width: 450px;
     height: 300px;
     display: flex;
-    margin-right: 35px;
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px -3px, rgba(0, 0, 0, 0.14) 0px 8px 10px 1px, rgba(0, 0, 0, 0.12) 0px 3px 14px 2px; }
   .logopraderagrande {
-    width: 250px;
-    height: 150px;
-    margin-right: 25px; }
+    width: 500px;
+    height: 150px; }
   .videosyt {
     flex-direction: column;
     gap: 40px;
-    align-items: center;
-    /* display: grid;
-    grid-template-columns: repeat(1,1fr);
-    row-gap: 40px;
-    margin-left: 10px; */ }
+    align-items: center; }
   .video {
     width: 450px;
     height: 270px; }
@@ -590,7 +674,8 @@ footer {
   .subtitulocontacto {
     margin-top: 35px; }
   .contactomail {
-    margin-left: 20px; }
+    margin-left: 20px;
+    width: 80%; }
   .infocorreo {
     margin: 0px;
     margin-top: 20px; }
@@ -599,12 +684,17 @@ footer {
     margin-top: 20px; }
   .infoinstagram {
     margin-top: 20px;
-    margin-left: -40px; }
+    margin-left: 30px; }
+  .logoinstagram {
+    margin-right: 5px; }
   .instagramcontacto {
     margin-top: 20px;
-    margin-left: -40px; }
+    margin-left: 35px; }
+  .logotiktok {
+    margin-bottom: 50px; }
   .contactotiktok {
-    margin-left: 30px; }
+    margin-left: 30px;
+    width: 90%; }
   .infotiktok {
     margin-top: 20px;
     margin-left: 15px; }
@@ -615,82 +705,3 @@ footer {
     margin-left: 15px; }
   .twitchcontacto {
     margin-left: 15px; } }
-
-.contenedorlogo {
-  width: 100%;
-  display: flex;
-  justify-content: center; }
-
-.logopraderagrande {
-  display: flex;
-  justify-content: center;
-  width: 550px;
-  transition: transform 1s 10ms; }
-  .logopraderagrande:hover {
-    transform: scale(1.5); }
-
-.nav-link {
-  transition: transform 0.3s 2s; }
-  .nav-link:hover {
-    background-color: #ffbd42;
-    border: 2px solid black;
-    border-radius: 12px; }
-
-ul li {
-  list-style: none;
-  font-size: 30px;
-  font-weight: bold;
-  display: inline;
-  margin: 0px 10px; }
-  ul li a {
-    color: black;
-    text-decoration: none; }
-
-.titulobienvenidos {
-  margin-top: 30px; }
-  .titulobienvenidos:hover {
-    transform: scale(1.15); }
-
-.contenedorhistoria {
-  display: flex;
-  margin-top: 40px;
-  margin-left: 40px; }
-
-.textoinicio {
-  margin: 30px;
-  font-size: 18px;
-  letter-spacing: 2px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
-
-.fotogrupal {
-  height: 400px;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px -3px, rgba(0, 0, 0, 0.14) 0px 8px 10px 1px, rgba(0, 0, 0, 0.12) 0px 3px 14px 2px;
-  transition: transform 0.3s 10ms; }
-  .fotogrupal:hover {
-    transform: scale(1.101); }
-
-.titulocontenido {
-  display: flex;
-  justify-content: center;
-  margin-top: 30px; }
-  .titulocontenido:hover {
-    transform: scale(1.1); }
-
-.subtitulocontenido {
-  text-align: center;
-  font-size: 18px;
-  margin-top: 40px;
-  margin-left: 80px;
-  margin-right: 80px; }
-
-.videosyt {
-  display: flex;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  justify-content: space-evenly; }
-
-.video {
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px -3px, rgba(0, 0, 0, 0.14) 0px 8px 10px 1px, rgba(0, 0, 0, 0.12) 0px 3px 14px 2px;
-  transition: transform 0.3s 10ms; }
-  .video:hover {
-    transform: scale(1.1); }
